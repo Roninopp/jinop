@@ -30,32 +30,32 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5101116742:AAGwdRcvRwkqvkeN7IVID5vIoZbgGId4GqU"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "7217645"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "78ba6352dd5cdc166fdef5aa84ba7c67"
       },    
-      "SQLALCHEMY_DATABASE_URI": {
+      "DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
          "required": false,
-         "value": "sqldbtype://username:pw@hostname:port/db_name"
+         "value": "postgres://uketdvwu:P6lPUxjC6BPMAnzTUEhkt9g7yNDkbn5W@arjuna.db.elephantsql.com/uketdvwu"
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1956381927"
+         "value": "1793699293"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": ""
+         "value": "1836395711"
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -67,12 +67,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "ProErrorXD"
+         "value": "Dushmanxronin"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "SiderzChat"
+         "value": "jin_kazma_support"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -90,12 +90,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001319484169"
+         "value": "-1001600524266"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001600524266"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -115,7 +115,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1956381927"
+         "value": "2039336161"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
